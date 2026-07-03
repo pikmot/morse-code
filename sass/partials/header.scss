@@ -1,0 +1,19 @@
+@use "../variables/color" as *;
+@use "../variables/fonts" as *;
+
+.header {
+  width: 100%;
+  height: fit-content;
+
+  background-color: $header-color-amber;
+  color: $header-text-amber;
+
+  font-family: $header-font;
+  font-size: 3rem;
+
+  text-align: center;
+
+  padding: 30px 0;
+
+  border-radius: 30px;
+}

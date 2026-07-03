@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=GFS+Didot&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Press+Start+2P&family=Rammetto+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  background-image: linear-gradient(to right, oklch(27.9% 0.077 45.635deg));
+  border-radius: 30px;
+  padding: 100px 0;
+}
+.display__line {
+  width: 80%;
+  margin-bottom: 100px;
+}
+.display__text {
+  font-family: "Arial";
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 0 1rem 0;
+  color: oklch(92.4% 0.12 95.746deg);
+}
+.display__input {
+  font-family: "Arial";
+  font-size: 2rem;
+  color: oklch(27.9% 0.077 45.635deg);
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px;
+}
+.display__input:hover {
+  transform: scale(1.1);
+  border: 3px dotted oklch(76.9% 0.188 70.08deg);
+  box-shadow: 0px 0px 20px 4px oklch(76.9% 0.188 70.08deg);
+}
+.display__input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.header {
+  width: 100%;
+  height: fit-content;
+  background-color: oklch(27.9% 0.077 45.635deg);
+  color: oklch(92.4% 0.12 95.746deg);
+  font-family: "Montserrat";
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px 0;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
