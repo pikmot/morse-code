@@ -20,10 +20,13 @@
   font-weight: bold;
   padding: 0 0 1rem 0;
   color: oklch(92.4% 0.12 95.746deg);
+  text-align: center;
 }
 .display__input {
+  width: 80%;
   font-family: "Arial";
   font-size: 2rem;
+  font-weight: bold;
   color: oklch(27.9% 0.077 45.635deg);
   text-align: center;
   border-radius: 30px;
@@ -48,7 +51,7 @@
   font-size: 3rem;
   text-align: center;
   padding: 30px 0;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
