@@ -13,3 +13,5 @@
 - added git ignore to ignore npm, node, js, jest
 
 - erorr where type ="module" ? for script?
+
+- should i be deploying all projects?

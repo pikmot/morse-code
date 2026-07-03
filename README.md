@@ -2,7 +2,7 @@
 
 Browser project built with Javascript, HTML and SASS.
 
-[LIVE DEMO](https://pikmot.github.io/morse-code/)
+<!-- [LIVE DEMO](https://pikmot.github.io/morse-code/) -->
 
 ## Preview
 
@@ -27,6 +27,12 @@ Browser project built with Javascript, HTML and SASS.
 - CSS/SASS
 - JAVASCRIPT (ES6+)
 - Vitest/Jest
+
+## Design Decisions
+
+- Extra spaces are truncated to single spacing e.g. "1234" -> "1" for Morse - English
+- Edge cases for Morse code incldue "./" | "/." | "-/" | "/-" return invalid for Morse - English
+- Edge case of spaces between English words are translated as normal with " / " as if it were an empty word.
 
 # Takeaway
 
