@@ -17,3 +17,5 @@
 - should i be deploying all projects?
 
 - is it normal to dynamically generate entire page? all inputs all text? assign class etc. using javascript? or is it good to have boilerplate and dynamically add?
+
+- as recruiter? are u looking for certain thins in README? do i need to add or takeaway anything?
