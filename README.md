@@ -8,9 +8,11 @@ Browser project built with Javascript, HTML and SASS.
 
 ### HOME PAGE | VALID INPUT | INVALID INPUT
 
-<img src="./assets/img/homepage_blank.png" width = 45%>
-<img src="./assets/img/homepage_success.png" width = 45%>
-<img src="./assets/img/homepage_invalid.png" width = 45%>
+<div width="100%">
+<img src="./assets/img/homepage_blank.png" width = 33%>
+<img src="./assets/img/homepage_success.png" width = 33%>
+<img src="./assets/img/homepage_invalid.png" width = 32%>
+<div>
 
 ## MVP
 
